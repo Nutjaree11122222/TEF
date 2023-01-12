@@ -21,9 +21,9 @@
     while($row = mysqli_fetch_assoc($result)) {
        ?>
        <tr>
-        <td><?php echo $row['province_id']?></td>
-        <td><?php echo $row['province_code']?></td>
-        <td><?php echo $row['province_name']?></td>
+        <td><?php echo $row['PROVINCE_ID']?></td>
+        <td><?php echo $row['PROVINCE_CODE']?></td>
+        <td><?php echo $row['PROVINCE_NAME']?></td>
        </tr>
        <?php
 
