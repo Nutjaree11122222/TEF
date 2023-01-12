@@ -1,6 +1,6 @@
 <?php include 'header.php' ?>
 <?php include 'banner.php' ?>
-<?php include 'narbar.php' ?>
+<?php include 'navbar.php' ?>
 <?php include 'connect.php' ?>
 
 <div class = "container mt-5">
