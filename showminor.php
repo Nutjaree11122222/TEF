@@ -13,7 +13,7 @@
         </tr>
     
 <?php
-    $sql = "SELECT * FROM student3";
+    $sql = "SELECT * FROM minor";
     $result = mysqli_query($conn, $sql);
 
     if (mysqli_num_rows($result) > 0) {
