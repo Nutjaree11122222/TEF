@@ -5,11 +5,7 @@
 <div class="container mt-5">
   <div class="row">
     <div class="col-sm-4">
-      <h2>Group TEF</h2>
-      
-    </div>
-    <div class="col-sm-8">
-      <h2>TITLE HEADING</h2>
+      <h2 style="margin:auto">Group TEF</h2>
     </div>
   </div>
 </div>
