@@ -13,7 +13,7 @@
         </tr>
     
 <?php
-    $sql = "SELECT * FROM province";
+    $sql = "SELECT * FROM `province`";
     $result = mysqli_query($conn, $sql);
 
     if (mysqli_num_rows($result) > 0) {
@@ -29,7 +29,7 @@
     }
     } else {
     echo "0 results";
-    }
+    }    
 
     mysqli_close($conn);
 ?>
