@@ -4,7 +4,7 @@
 <?php include 'connect.php' ?>
 
 <div class = "container mt-5">
-<h1>ข้อมูล Minor</h1>
+<center><h1>ข้อมูล Minor</h1></center>
     <table class = "table table-bordered">
         <tr>
             <th>รหัสสาขางาน</th>
