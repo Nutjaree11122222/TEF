@@ -11,7 +11,7 @@
         <a class="nav-link" href="show_customer.php">Customer</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="show_minor.php">minor_depart</a>
+        <a class="nav-link" href="show_minor.php">Minor</a>
       </li>
     </ul>
   </div>
