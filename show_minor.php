@@ -1,10 +1,10 @@
 <?php include 'header.php' ?>
 <?php include 'banner.php' ?>
-<?php include 'navbar.php' ?>
+<?php include 'narbar.php' ?>
 <?php include 'connect.php' ?>
 
 <div class = "container mt-5">
-<center><h2>ข้อมูล Minor</h2></center>
+<h1>ข้อมูล Minor</h1>
     <table class = "table table-bordered">
         <tr>
             <th>รหัสสาขางาน</th>
