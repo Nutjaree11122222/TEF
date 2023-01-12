@@ -8,13 +8,13 @@ include ("connect.php");
 <div class = "container mt-5">
         <h2><center>ข้อมูล Customer</center></h2>
         <table class = "table table-bordered">
-            <tr>
-                <th>รหัสลูกค้า</th>
-                <th>ชื่อลูกค้า</th>
-                <th>ที่อยู่</th>
-                <th>ตำแหน่ง</th>
-                <th>เงินเดือน</th>
-            </tr>
+        <tr>
+            <th>รหัสลูกค้า</th>
+            <th>ชื่อลูกค้า</th>
+            <th>ที่อยู่</th>
+            <th>ตำแหน่ง</th>
+            <th>เงินเดือน</th>
+        </tr>
     <?php
     $sql = "SELECT * FROM customer";
     $result = mysqli_query($conn, $sql);
