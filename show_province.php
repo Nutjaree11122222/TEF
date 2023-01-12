@@ -4,7 +4,7 @@
 <?php include 'connect.php' ?>
 
 <div class = "container mt-5">
-<h1>ข้อมูล Province</h1>
+<h2><center>ข้อมูล Province</center></h2>
     <table class = "table table-bordered">
         <tr>
             <th>ลำดับ</th>
