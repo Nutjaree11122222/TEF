@@ -9,10 +9,11 @@ include ("connect.php");
         <h2><center>ข้อมูล Customer </center></h2>
         <table class = "table table-bordered">
             <tr>
-                <th>รหัสนักเรียน</th>
-                <th>ชื่อนักเรียน</th>
-                <th>กลุ่มการเรียน</th>
-                <th>ระดับชั้น</th>
+                <th>รหัสพนักงาน</th>
+                <th>ชื่อพนักงาน</th>
+                <th>ที่อยู่พนักงาน</th>
+                <th>ตำเเหน่ง</th>
+                <th>เงินเดือน</th>
             </tr>
     <?php
     $sql = "SELECT * FROM customer";
