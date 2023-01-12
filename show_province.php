@@ -26,9 +26,6 @@
         <td><?php echo $row['province_name']?></td>
        </tr>
        <?php
-
-        /*echo $row['student_id']. " - " . $row['name'];
-        echo  "<br>";*/
     }
     } else {
     echo "0 results";
