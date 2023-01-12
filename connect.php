@@ -1,5 +1,5 @@
 <?php
-    $conn = mysqli_connect('127.0.0.1','root','12345678','dev_2019');
+    $conn = mysqli_connect('202.29.229.253','it65309010007','it65309010007','it65309010007');
     if(!$conn){
         die("Connection failed: " . mysqli_connect_error());
     }
