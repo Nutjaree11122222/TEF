@@ -3,9 +3,9 @@
 <?php include 'navbar.php' ?>
 <?php include 'connect.php' ?>
 
-<div class="container mt-5">
+<div class = "container mt-5">
 <h1>ข้อมูล Province</h1>
-    <table class = "table table-bordered" >
+    <table class = "table table-bordered">
         <tr>
             <th>ลำดับ</th>
             <th>รหัสจังหวัด</th>
@@ -13,7 +13,7 @@
         </tr>
     
 <?php
-    $sql = "SELECT * FROM `province`";
+    $sql = "SELECT * FROM province";
     $result = mysqli_query($conn, $sql);
 
     if (mysqli_num_rows($result) > 0) {
@@ -26,10 +26,13 @@
         <td><?php echo $row['province_name']?></td>
        </tr>
        <?php
+
+        /*echo $row['student_id']. " - " . $row['name'];
+        echo  "<br>";*/
     }
     } else {
     echo "0 results";
-    }    
+    }
 
     mysqli_close($conn);
 ?>
@@ -41,4 +44,3 @@
 </body>
 
 </html>
-
